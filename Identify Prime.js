@@ -8,6 +8,22 @@
 
 
 function identifyPrime(num) {
+    for(j=1; j<=num; j++){
+  
+let count =0
+  for(i=1; i<=j; i++){
+  if(j%i === 0){
+  count++
+  } 
+  } 
+  if(count==2){
+  console.log(j);
+  }
+}
+    
+    //or
+
+function identifyPrime(num) {
     
     primo = true;
 if (num === 1) {
