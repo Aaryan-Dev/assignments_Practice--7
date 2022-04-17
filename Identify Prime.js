@@ -17,7 +17,9 @@ let count =0
   } 
   } 
   if(count==2){
-  console.log(j);
+  console.log("Yes");
+  }else{
+      console.log("No");
   }
 }
     
